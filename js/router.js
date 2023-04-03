@@ -6,11 +6,13 @@ export default class Router {
 
   // Método para inicializar el router
   initRouter() {
+    const hasHash = location.hash;
+    !hasHash && window.history.replaceState({}, "done", "#/");
     const {
       location: { hash = "#/" },
     } = window;
     const URI = hash === "#/" ? "home" : hash.replace("#/", "");
-    console.log("URI:", URI);
+
     this.load(URI);
   }
 
