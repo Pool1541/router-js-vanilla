@@ -2,8 +2,8 @@
   "name": "router-javascript",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://pool1541.github.io/router-js-vanilla/#/",
-  "main": "index.js",
+  "homepage": "https://pool1541.github.io/router-js-vanilla/#",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
