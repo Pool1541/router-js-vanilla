@@ -1,0 +1,20 @@
+{
+  "name": "router-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://pool1541.github.io/router-js-vanilla/#/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pool1541/router-js-vanilla.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pool1541/router-js-vanilla/issues"
+  }
+}
