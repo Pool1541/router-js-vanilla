@@ -7,7 +7,7 @@ const links = document.querySelectorAll("button");
 window.addEventListener("DOMContentLoaded", function () {
   links.forEach((link) => {
     const linkPath = link.innerText.toLowerCase();
-    link.addEventListener("click", () => ROUTER.load(linkPath));
+    link.addEventListener("click", () => ROUTER.load(linkPath, true));
   });
 });
 
@@ -15,5 +15,3 @@ window.addEventListener("hashchange", () => {
   const location = window.location.hash.replace("#/", "") || "home";
   ROUTER.load(location);
 });
-
-console.log(ROUTER);
